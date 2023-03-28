@@ -1,5 +1,8 @@
-let star = 0;
-
-for (star =1; star < 6; star+=1){
-    console.log(star);
+let star = "*";
+let res=" ";
+let estrella=0; 
+for (estrella=1; estrella<=5;estrella++){
+        res+=star;
+        console.log(res);
 }
+
